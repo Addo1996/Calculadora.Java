@@ -10,6 +10,9 @@ public class TestCalculadora {
 		
 		double resultadoDivision=calcu1.dividir(10 , 2 );
 		System.out.println("Resultado Divicion =" + resultadoDivision);
+		
+		double resultadoPromediar=calcu1.promediar(10, 6, 8);
+		System.out.println("Promedio =" + resultadoPromediar);
 
 	}
 
