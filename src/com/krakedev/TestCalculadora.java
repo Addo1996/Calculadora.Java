@@ -7,6 +7,9 @@ public class TestCalculadora {
 		
 		double resultadoMultiplicacion=calcu1.multiplicar(4, 10);
 		System.out.printf("Resultado Multiplicacion =" + resultadoMultiplicacion);
+		
+		double resultadoDivision=calcu1.dividir(10 , 2 );
+		System.out.println("Resultado Divicion =" + resultadoDivision);
 
 	}
 
