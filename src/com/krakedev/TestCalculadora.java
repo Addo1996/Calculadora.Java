@@ -13,7 +13,9 @@ public class TestCalculadora {
 		
 		double resultadoPromediar=calcu1.promediar(10, 6, 8);
 		System.out.println("Promedio =" + resultadoPromediar);
-
+		
+		calcu1.mostrarResultado();
+		
 	}
 
 }
